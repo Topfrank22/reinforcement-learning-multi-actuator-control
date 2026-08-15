@@ -1,0 +1,47 @@
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.p
+*.mexw64
+*.mexmaci64
+*.mexa64
+
+# MATLAB generated binary data (trained agents, stats)
+*.mat
+
+# Exceptions: keep small config .mat if needed
+# !run_config.mat
+
+# Simulink
+*.slx.autosave
+*.slxc
+slprj/
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Results folders (binary data too heavy)
+# PNG images inside are kept (excluded from this rule)
+# If you want to exclude entire Risultati folders, uncomment below:
+# */Risultati_*/
+
+# But keep PNG plots inside results folders
+# (they are lightweight and useful for README display)
+# !*/Risultati_*/*.png
+
+# IDE / Editor
+.vscode/
+*.code-workspace
+
+# Git
+*.orig
+
+# Local video folder (raw recordings)
+x github profile/
